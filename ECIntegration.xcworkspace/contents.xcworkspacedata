@@ -19,4 +19,7 @@
    <FileRef
       location = "group:ECLoggingExamples/Mac/ECLoggingSampleMac.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ECUnitTestsExample/ECUnitTestsExample.xcodeproj">
+   </FileRef>
 </Workspace>

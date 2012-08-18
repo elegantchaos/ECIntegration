@@ -13,3 +13,6 @@
 [submodule "ECLoggingExamples"]
 	path = ECLoggingExamples
 	url = git://github.com/elegantchaos/ECLoggingExamples.git
+[submodule "ECUnitTestsExample"]
+	path = ECUnitTestsExample
+	url = git@github.com:elegantchaos/ECUnitTestsExample.git
