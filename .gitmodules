@@ -1,0 +1,12 @@
+[submodule "ECConfig"]
+	path = ECConfig
+	url = git@github.com:elegantchaos/ECConfig
+[submodule "ECUnitTests"]
+	path = ECUnitTests
+	url = git@github.com:elegantchaos/ECUnitTests
+[submodule "ECLogging"]
+	path = ECLogging
+	url = git@github.com:elegantchaos/ECLogging
+[submodule "ECCore"]
+	path = ECCore
+	url = git@github.com:elegantchaos/ECCore
