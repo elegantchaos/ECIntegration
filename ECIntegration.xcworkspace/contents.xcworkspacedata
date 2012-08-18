@@ -13,4 +13,10 @@
    <FileRef
       location = "group:ECConfig/ECConfig.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ECLoggingExamples/iOS/ECLoggingSampleIOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ECLoggingExamples/Mac/ECLoggingSampleMac.xcodeproj">
+   </FileRef>
 </Workspace>
