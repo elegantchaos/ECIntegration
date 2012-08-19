@@ -25,4 +25,7 @@
    <FileRef
       location = "group:ECText/ECText.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ECTouch/ECTouch.xcodeproj">
+   </FileRef>
 </Workspace>
