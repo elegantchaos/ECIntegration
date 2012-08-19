@@ -22,4 +22,7 @@
    <FileRef
       location = "group:ECUnitTestsExample/ECUnitTestsExample.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ECText/ECText.xcodeproj">
+   </FileRef>
 </Workspace>

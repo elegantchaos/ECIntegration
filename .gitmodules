@@ -16,3 +16,9 @@
 [submodule "ECUnitTestsExample"]
 	path = ECUnitTestsExample
 	url = git@github.com:elegantchaos/ECUnitTestsExample.git
+[submodule "ECText"]
+	path = ECText
+	url = git://github.com/elegantchaos/ECText.git
+[submodule "ECTouch"]
+	path = ECTouch
+	url = git://github.com/elegantchaos/ECTouch.git
