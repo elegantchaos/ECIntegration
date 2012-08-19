@@ -1,21 +1,21 @@
 [submodule "ECConfig"]
 	path = ECConfig
-	url = git@github.com:elegantchaos/ECConfig
+	url = git://github.com/elegantchaos/ECConfig
 [submodule "ECUnitTests"]
 	path = ECUnitTests
-	url = git@github.com:elegantchaos/ECUnitTests
+	url = git://github.com/elegantchaos/ECUnitTests
 [submodule "ECLogging"]
 	path = ECLogging
-	url = git@github.com:elegantchaos/ECLogging
+	url = git://github.com/elegantchaos/ECLogging
 [submodule "ECCore"]
 	path = ECCore
-	url = git@github.com:elegantchaos/ECCore
+	url = git://github.com/elegantchaos/ECCore
 [submodule "ECLoggingExamples"]
 	path = ECLoggingExamples
 	url = git://github.com/elegantchaos/ECLoggingExamples.git
 [submodule "ECUnitTestsExample"]
 	path = ECUnitTestsExample
-	url = git@github.com:elegantchaos/ECUnitTestsExample.git
+	url = git://github.com/elegantchaos/ECUnitTestsExample.git
 [submodule "ECText"]
 	path = ECText
 	url = git://github.com/elegantchaos/ECText.git
