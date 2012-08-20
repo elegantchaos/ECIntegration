@@ -41,3 +41,11 @@ iosbuild "ECNetwork iOS" build
 # test ECTouch
 
 iosbuild "ECTouch iOS" build
+
+# test ECAnalytics
+
+iosbuild "ECAnalytics iOS" build
+
+# test ECAppKit
+
+macbuild "ECAppKit Mac" build
