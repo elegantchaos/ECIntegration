@@ -27,3 +27,18 @@ iosbuild "ECLogging iOS" test
 
 macbuild "ECLogging Sample Mac" build
 iosbuild "ECLogging Sample iOS" build
+
+# test ECLocation
+
+macbuild "ECLocation Mac" build
+iosbuild "ECLocation iOS" build
+
+# test ECNetwork
+
+macbuild "ECNetwork Mac" build
+iosbuild "ECNetwork iOS" build
+
+# test ECTouch
+
+macbuild "ECTouch Mac" build
+iosbuild "ECTouch iOS" build
