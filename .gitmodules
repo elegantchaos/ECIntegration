@@ -22,3 +22,15 @@
 [submodule "ECTouch"]
 	path = ECTouch
 	url = git://github.com/elegantchaos/ECTouch.git
+[submodule "ECLocation"]
+	path = ECLocation
+	url = git://github.com/elegantchaos/ECLocation.git
+[submodule "ECAnalytics"]
+	path = ECAnalytics
+	url = git://github.com/elegantchaos/ECAnalytics.git
+[submodule "ECAppKit"]
+	path = ECAppKit
+	url = git://github.com/elegantchaos/ECAppKit.git
+[submodule "ECNetwork"]
+	path = ECNetwork
+	url = git://github.com/elegantchaos/ECNetwork.git
