@@ -25,6 +25,9 @@
    <FileRef
       location = "group:ECLocation/ECLocation.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ECAnalytics/ECAnalytics.xcodeproj">
+   </FileRef>
    <Group
       location = "container:"
       name = "Examples">
