@@ -22,6 +22,9 @@
    <FileRef
       location = "group:ECTouch/ECTouch.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ECLocation/ECLocation.xcodeproj">
+   </FileRef>
    <Group
       location = "container:"
       name = "Examples">
