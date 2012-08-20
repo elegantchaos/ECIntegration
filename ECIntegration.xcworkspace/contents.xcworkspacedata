@@ -17,6 +17,9 @@
       location = "group:ECText/ECText.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:ECNetwork/ECNetwork.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ECTouch/ECTouch.xcodeproj">
    </FileRef>
    <Group
