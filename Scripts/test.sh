@@ -40,5 +40,4 @@ iosbuild "ECNetwork iOS" build
 
 # test ECTouch
 
-macbuild "ECTouch Mac" build
 iosbuild "ECTouch iOS" build
