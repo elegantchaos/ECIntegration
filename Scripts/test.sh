@@ -49,3 +49,7 @@ iosbuild "ECAnalytics iOS" build
 # test ECAppKit
 
 macbuild "ECAppKit Mac" build
+
+
+# if everything worked, try to push the current submodule revisions to their master branches
+git submodule foreach 'git push origin HEAD:master'
