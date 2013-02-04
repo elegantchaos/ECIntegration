@@ -29,6 +29,9 @@
       location = "group:ECAnalytics/ECAnalytics.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:ECPreferencesWindow/ECPreferencesWindow.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ECAppKit/ECAppKit.xcodeproj">
    </FileRef>
    <Group
