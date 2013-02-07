@@ -4,12 +4,29 @@
    <FileRef
       location = "group:ECConfig/ECConfig.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:ECUnitTests/ECUnitTests.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:ECLogging/ECLogging.xcodeproj">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "ECUnitTests">
+      <FileRef
+         location = "group:ECUnitTests/ECUnitTests.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:ECUnitTestsExample/ECUnitTestsExample.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "ECLogging">
+      <FileRef
+         location = "group:ECLoggingExamples/Mac/ECLoggingSampleMac.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:ECLogging/ECLogging.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:ECLoggingExamples/iOS/ECLoggingSampleIOS.xcodeproj">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:ECCore/ECCore.xcodeproj">
    </FileRef>
@@ -29,22 +46,13 @@
       location = "group:ECAnalytics/ECAnalytics.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ECPreferencesWindow/ECPreferencesWindow.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:ECAppKit/ECAppKit.xcodeproj">
    </FileRef>
    <Group
       location = "container:"
-      name = "Examples">
+      name = "ECPreferencesWindow">
       <FileRef
-         location = "group:ECLoggingExamples/iOS/ECLoggingSampleIOS.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:ECLoggingExamples/Mac/ECLoggingSampleMac.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:ECUnitTestsExample/ECUnitTestsExample.xcodeproj">
+         location = "group:ECPreferencesWindow/ECPreferencesWindow.xcodeproj">
       </FileRef>
       <FileRef
          location = "group:ECPreferencesWindowExample/ECPreferencesWindowExample.xcodeproj">
