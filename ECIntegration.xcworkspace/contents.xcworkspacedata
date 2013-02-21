@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:ECConfig/ECConfig.xcodeproj">
-   </FileRef>
-   <Group
-      location = "container:"
-      name = "ECUnitTests">
-      <FileRef
-         location = "group:ECUnitTests/ECUnitTests.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:ECUnitTestsExample/ECUnitTestsExample.xcodeproj">
-      </FileRef>
-   </Group>
    <Group
       location = "container:"
       name = "ECLogging">
       <FileRef
-         location = "group:ECLoggingExamples/Mac/ECLoggingSampleMac.xcodeproj">
+         location = "group:ECLogging/ECLogging.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:ECLogging/ECLogging.xcodeproj">
+         location = "group:ECLoggingExamples/Mac/ECLoggingSampleMac.xcodeproj">
       </FileRef>
       <FileRef
          location = "group:ECLoggingExamples/iOS/ECLoggingSampleIOS.xcodeproj">
