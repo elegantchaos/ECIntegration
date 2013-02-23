@@ -8,10 +8,7 @@
          location = "group:ECLogging/ECLogging.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:ECLoggingExamples/Mac/ECLoggingSampleMac.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:ECLoggingExamples/iOS/ECLoggingSampleIOS.xcodeproj">
+         location = "group:ECLoggingExamples/ECLoggingSample.xcodeproj">
       </FileRef>
    </Group>
    <FileRef
