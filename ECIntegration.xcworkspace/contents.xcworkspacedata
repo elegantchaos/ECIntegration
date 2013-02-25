@@ -29,9 +29,6 @@
    <FileRef
       location = "group:ECAnalytics/ECAnalytics.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:ECAppKit/ECAppKit.xcodeproj">
-   </FileRef>
    <Group
       location = "container:"
       name = "ECPreferencesWindow">
@@ -42,4 +39,7 @@
          location = "group:ECPreferencesWindowExample/ECPreferencesWindowExample.xcodeproj">
       </FileRef>
    </Group>
+   <FileRef
+      location = "group:ECAppKit/ECAppKit.xcodeproj">
+   </FileRef>
 </Workspace>
