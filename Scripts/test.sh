@@ -13,8 +13,8 @@ source "$base/../ECLogging/Extras/Scripts/test-common.sh"
 macbuild "ECLogging Mac" test
 iosbuild "ECLogging iOS" test
 
-macbuild "ECLogging Sample Mac" build test
-iosbuild "ECLogging Sample iOS" build test
+macbuild "ECLogging Sample Mac" test
+iosbuild "ECLogging Sample iOS" test
 
 # test ECLocation
 
