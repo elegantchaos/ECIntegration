@@ -1,0 +1,920 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>ECPWController Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">ECIntegration </a></h1>
+				<a id="developerHome" href="../index.html">Elegant Chaos</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">ECPWController Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/alwaysShowsToolbar">&nbsp;&nbsp;&nbsp;&nbsp;alwaysShowsToolbar</option>
+	
+	<option value="//api/name/centreFirstTimeOnly">&nbsp;&nbsp;&nbsp;&nbsp;centreFirstTimeOnly</option>
+	
+	<option value="//api/name/style">&nbsp;&nbsp;&nbsp;&nbsp;style</option>
+	
+	<option value="//api/name/toolbarDisplayMode">&nbsp;&nbsp;&nbsp;&nbsp;toolbarDisplayMode</option>
+	
+	<option value="//api/name/toolbarSizeMode">&nbsp;&nbsp;&nbsp;&nbsp;toolbarSizeMode</option>
+	
+	<option value="//api/name/window">&nbsp;&nbsp;&nbsp;&nbsp;window</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/preferencesWindowController">&nbsp;&nbsp;&nbsp;&nbsp;+ preferencesWindowController</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/hidePreferencesWindow">&nbsp;&nbsp;&nbsp;&nbsp;- hidePreferencesWindow</option>
+	
+	<option value="//api/name/initLoadingPanesFromBundle:">&nbsp;&nbsp;&nbsp;&nbsp;- initLoadingPanesFromBundle:</option>
+	
+	<option value="//api/name/showPaneWithIdentifier:">&nbsp;&nbsp;&nbsp;&nbsp;- showPaneWithIdentifier:</option>
+	
+	<option value="//api/name/showPreferencesWindow">&nbsp;&nbsp;&nbsp;&nbsp;- showPreferencesWindow</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/alwaysShowsToolbar">alwaysShowsToolbar</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/centreFirstTimeOnly">centreFirstTimeOnly</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/style">style</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/toolbarDisplayMode">toolbarDisplayMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/toolbarSizeMode">toolbarSizeMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/window">window</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/preferencesWindowController">preferencesWindowController</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hidePreferencesWindow">hidePreferencesWindow</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initLoadingPanesFromBundle:">initLoadingPanesFromBundle:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showPaneWithIdentifier:">showPaneWithIdentifier:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/showPreferencesWindow">showPreferencesWindow</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="ECPWController Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">ECPWController Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSToolbarDelegate<br />NSWindowDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">ECPWController.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Manages a preferences window.</p>
+
+<p>The window consists of a toolbar of icons, and an area below the toolbar
+which is replaced by the <ECPWPane> that corresponds to the selected
+toolbar icon.</p>
+
+<h1>Usage</h1>
+
+<p>The class isn&rsquo;t a singleton, although typically you&rsquo;ll simply make one instance
+and store it somewhere (eg in your application delegate).</p>
+
+<p>Call showPreferencesWindow to show the preferences window.</p>
+
+<pre><code>ECPWController* controller = [ECPWController preferencesWindowController];
+[controller showPreferencesWindow];
+</code></pre>
+
+<h1>Initialisation And Configuration</h1>
+
+<p>Most configuration is done via the ECPreferencesWindow key of the application&rsquo;s
+Info.plist file.</p>
+
+<p>This key should contain a dictionary.</p>
+
+<p>A number of values in this dictionary configure the behaviour of the window:</p>
+
+<ul>
+<li>Style: window style flags to use. Defaults to NSTitledWindowMask | NSClosableWindowMask | NSResizableWindowMask.</li>
+<li>AlwaysShowsToolbar: should the toolbar be visible even if there is just one pane? Defaults to NO.</li>
+<li>CentreFirstTimeOnly: should the window only be centered when it&rsquo;s created (YES), or every time it is shown (NO). Defaults to NO.</li>
+<li>BundleDirectory: the name of the directory to look for preference bundles in. Defaults to &ldquo;PlugIns&rdquo;.</li>
+<li>BundleExtension: the extension to look for in the bundle directory. Defaults to &ldquo;preferences&rdquo;.</li>
+<li>ToolbarDisplayMode: the display mode to use for the toolbar. Defaults to NSToolbarDisplayModeDefault.</li>
+<li>ToolbarSizeMode: the display size mode to use for the toolbar. Defaults to NSToolbarSizeModeDefault.</li>
+<li>Panes: a list of panes to load. See below.</li>
+</ul>
+
+
+<p>The Panes key should contain a list of dictionaries. Each of these
+describes a pane to add to the preferences window.</p>
+
+<p>Each pane dictionary can contain the following keys:</p>
+
+<ul>
+<li>Class (required): the class to use for the pane.</li>
+<li>Identifier: the identifier to use for the pane. Defaults to the class name.</li>
+<li>Name: the text label to use for the pane. Defaults to the class name.</li>
+<li>Icon: the name of the icon image to use for the panel. Defaults to the class name.</li>
+<li>ToolTip: tooltip text to use for the pane. Defaults to nil.</li>
+</ul>
+
+
+<h1>Preference Bundles</h1>
+
+<p>In addition to loading the panes described in main application&rsquo;s Info.plist, the
+controller also scans a folder for preference bundles, and loads any that it finds.</p>
+
+<p>The principal class for each of these bundles should inherit from ECPWBundle.</p>
+
+<p>When a preferences bundle is loaded, [ECPWBundle preferencesController:loadedBundle:] is called on this class.</p>
+
+<p>This method should return a list of dictionaries with additional panes to load.</p>
+
+<p>The default implementation of the method does this by looking in the bundle&rsquo;s Info.plist file
+for an ECPreferencesWindow key, and taking a list of panes from the Panes sub-key (this mirrors
+the process used to load panes from the main application&rsquo;s Info.plist).</p>
+
+<h1>Loading</h1>
+
+<p>The bundles folder is scanned when the controller is first created, and any preference
+bundles that are found get loaded and called at this point in order to set themselves up.</p>
+
+<p>This allows preferences bundles to add features to an application when it first starts up,
+rather than only doing something when the preferences window is shown.</p>
+
+<p>The pane classes themselves are created lazily when the preferences window is first shown,
+so it&rsquo;s quite possible that they will never be created at all for a given run of an application.</p>
+
+<p>When a pane is loaded, <a href="../Classes/ECPWPane.html#//api/name/paneDidLoad">[ECPWPane paneDidLoad]</a> is called on it.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/style">&nbsp;&nbsp;style</a></code>
+		<span class="tooltip"><p>Window style flags to use. Defaults to NSTitledWindowMask | NSClosableWindowMask | NSResizableWindowMask.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/alwaysShowsToolbar">&nbsp;&nbsp;alwaysShowsToolbar</a></code>
+		<span class="tooltip"><p>Should the toolbar be visible even if there&rsquo;s only one panel?</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/centreFirstTimeOnly">&nbsp;&nbsp;centreFirstTimeOnly</a></code>
+		<span class="tooltip"><p>Should the <a href="#//api/name/window">window</a> be centred when it&rsquo;s first created, or every time it&rsquo;s shown?</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/toolbarDisplayMode">&nbsp;&nbsp;toolbarDisplayMode</a></code>
+		<span class="tooltip"><p>How the toolbar should be displayed.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/toolbarSizeMode">&nbsp;&nbsp;toolbarSizeMode</a></code>
+		<span class="tooltip"><p>How the toolbar should be sized.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/window">&nbsp;&nbsp;window</a></code>
+		<span class="tooltip"><p>The preferences window.</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/preferencesWindowController">+&nbsp;preferencesWindowController</a></code>
+		<span class="tooltip"><p>Return a new <a href="#//api/name/window">window</a> controller.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initLoadingPanesFromBundle:">&ndash;&nbsp;initLoadingPanesFromBundle:</a></code>
+		<span class="tooltip"><p>Initialise a new controller.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showPreferencesWindow">&ndash;&nbsp;showPreferencesWindow</a></code>
+		<span class="tooltip"><p>Show the preferences <a href="#//api/name/window">window</a>.
+The previously selected pane is shown by default, or the first pane if none was previously selected.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/showPaneWithIdentifier:">&ndash;&nbsp;showPaneWithIdentifier:</a></code>
+		<span class="tooltip"><p>Show the preferences <a href="#//api/name/window">window</a> and select a given pane.</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hidePreferencesWindow">&ndash;&nbsp;hidePreferencesWindow</a></code>
+		<span class="tooltip"><p>Hide the preferences <a href="#//api/name/window">window</a>.</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/alwaysShowsToolbar" title="alwaysShowsToolbar"></a>
+	<h3 class="subsubtitle method-title">alwaysShowsToolbar</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Should the toolbar be visible even if there&rsquo;s only one panel?</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) BOOL alwaysShowsToolbar</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ECPWController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/centreFirstTimeOnly" title="centreFirstTimeOnly"></a>
+	<h3 class="subsubtitle method-title">centreFirstTimeOnly</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Should the <a href="#//api/name/window">window</a> be centred when it&rsquo;s first created, or every time it&rsquo;s shown?</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) BOOL centreFirstTimeOnly</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ECPWController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/style" title="style"></a>
+	<h3 class="subsubtitle method-title">style</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Window style flags to use. Defaults to NSTitledWindowMask | NSClosableWindowMask | NSResizableWindowMask.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) NSUInteger style</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ECPWController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/toolbarDisplayMode" title="toolbarDisplayMode"></a>
+	<h3 class="subsubtitle method-title">toolbarDisplayMode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>How the toolbar should be displayed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) NSToolbarDisplayMode toolbarDisplayMode</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ECPWController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/toolbarSizeMode" title="toolbarSizeMode"></a>
+	<h3 class="subsubtitle method-title">toolbarSizeMode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>How the toolbar should be sized.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) NSToolbarSizeMode toolbarSizeMode</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ECPWController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/window" title="window"></a>
+	<h3 class="subsubtitle method-title">window</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The preferences window.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic, readonly) NSWindow *window</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ECPWController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/preferencesWindowController" title="preferencesWindowController"></a>
+	<h3 class="subsubtitle method-title">preferencesWindowController</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Return a new <a href="#//api/name/window">window</a> controller.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)preferencesWindowController</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A new instance of ECPWController.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ECPWController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/hidePreferencesWindow" title="hidePreferencesWindow"></a>
+	<h3 class="subsubtitle method-title">hidePreferencesWindow</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Hide the preferences <a href="#//api/name/window">window</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)hidePreferencesWindow</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ECPWController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initLoadingPanesFromBundle:" title="initLoadingPanesFromBundle:"></a>
+	<h3 class="subsubtitle method-title">initLoadingPanesFromBundle:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initialise a new controller.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initLoadingPanesFromBundle:(NSBundle *)<em>bundle</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>bundle</em></dt>
+			<dd><p>Bundle to load settings and additional preference bundles from. Defaults to [NSBundle mainBundle].</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The new controller.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Settings for the controller are read from the Info.plist of the given
+bundle, and the bundle is scanned for additional preferences bundles to load.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ECPWController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showPaneWithIdentifier:" title="showPaneWithIdentifier:"></a>
+	<h3 class="subsubtitle method-title">showPaneWithIdentifier:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Show the preferences <a href="#//api/name/window">window</a> and select a given pane.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)showPaneWithIdentifier:(NSString *)<em>identifier</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>identifier</em></dt>
+			<dd><p>The identifier of the pane to select.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ECPWController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/showPreferencesWindow" title="showPreferencesWindow"></a>
+	<h3 class="subsubtitle method-title">showPreferencesWindow</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Show the preferences <a href="#//api/name/window">window</a>.
+The previously selected pane is shown by default, or the first pane if none was previously selected.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)showPreferencesWindow</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ECPWController.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Elegant Chaos. All rights reserved. (Last updated: 2013-02-28)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>
