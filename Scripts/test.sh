@@ -18,7 +18,7 @@ iosbuild "ECLogging Sample iOS" test
 
 # test ECLocation
 
-macbuild "ECLocation Mac" build
+macbuild "ECLocation Mac" test
 iosbuild "ECLocation iOS" build
 
 # test ECNetwork
@@ -36,7 +36,7 @@ iosbuild "ECAnalytics iOS" build
 
 # test ECAppKit
 
-macbuild "ECAppKit Mac" build
+macbuild "ECAppKit Mac" test
 
 
 # if everything worked, try to push the current submodule revisions to their master branches
