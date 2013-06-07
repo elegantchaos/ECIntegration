@@ -40,3 +40,6 @@
 [submodule "ECPreferencesWindowExample"]
 	path = ECPreferencesWindowExample
 	url = git@github.com:elegantchaos/ECPreferencesWindowExample.git
+[submodule "ECSecurity"]
+	path = ECSecurity
+	url = git@github.com:elegantchaos/ECSecurity.git
