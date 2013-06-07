@@ -18,6 +18,9 @@
       location = "group:ECCore/ECCore.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:ECSecurity/ECSecurity.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ECText/ECText.xcodeproj">
    </FileRef>
    <FileRef
