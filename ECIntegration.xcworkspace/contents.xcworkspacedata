@@ -48,6 +48,16 @@
    <FileRef
       location = "group:ECAppKit/ECAppKit.xcodeproj">
    </FileRef>
+   <Group
+      location = "container:"
+      name = "ECCommandLine">
+      <FileRef
+         location = "group:ECCommandLine/ECCommandLine.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:ECCommandLineTest/ECCommandLineTest.xcodeproj">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:ECEmptyLibraryTemplate/{{name}}.xcodeproj">
    </FileRef>
