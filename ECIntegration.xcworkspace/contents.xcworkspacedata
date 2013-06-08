@@ -48,4 +48,7 @@
    <FileRef
       location = "group:ECAppKit/ECAppKit.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ECEmptyLibraryTemplate/{{name}}.xcodeproj">
+   </FileRef>
 </Workspace>

@@ -43,3 +43,6 @@
 [submodule "ECSecurity"]
 	path = ECSecurity
 	url = git@github.com:elegantchaos/ECSecurity.git
+[submodule "ECEmptyLibraryTemplate"]
+	path = ECEmptyLibraryTemplate
+	url = git@github.com:elegantchaos/ECEmptyLibraryTemplate.git
