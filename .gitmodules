@@ -46,3 +46,9 @@
 [submodule "ECEmptyLibraryTemplate"]
 	path = ECEmptyLibraryTemplate
 	url = git@github.com:elegantchaos/ECEmptyLibraryTemplate.git
+[submodule "ECCommandLine"]
+	path = ECCommandLine
+	url = git@github.com:elegantchaos/ECCommandLine.git
+[submodule "ECCommandLineTest"]
+	path = ECCommandLineTest
+	url = git@github.com:samdeane/ECCommandLineTest.git
