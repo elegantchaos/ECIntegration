@@ -51,4 +51,4 @@
 	url = git@github.com:elegantchaos/ECCommandLine.git
 [submodule "ECCommandLineTest"]
 	path = ECCommandLineTest
-	url = git@github.com:samdeane/ECCommandLineTest.git
+	url = git@github.com:elegantchaos/ECCommandLineTest.git
