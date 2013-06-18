@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0460"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "NO"
+      buildImplicitDependencies = "NO">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2251BA1115DBCC4A00F2FE40"
+               BuildableName = "ECLogging.framework"
+               BlueprintName = "ECLoggingIOS"
+               ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "221E214A16E7864900B65B1F"
+               BuildableName = "ECLogging.bundle"
+               BlueprintName = "ECLoggingIOSResources"
+               ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2251B9FE15DBCC3E00F2FE40"
+               BuildableName = "ECLogging.framework"
+               BlueprintName = "ECLoggingMac"
+               ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "228CF1E817562478003E1D25"
+               BuildableName = "libECLogging.a"
+               BlueprintName = "ECLoggingMacStatic"
+               ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2260A2FC15DFD7320057C9DA"
+               BuildableName = "ECCore.framework"
+               BlueprintName = "ECCoreIOS"
+               ReferencedContainer = "container:ECCore/ECCore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2260A2E815DFD7290057C9DA"
+               BuildableName = "ECCore.framework"
+               BlueprintName = "ECCoreMac"
+               ReferencedContainer = "container:ECCore/ECCore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2296287017621E33008D887F"
+               BuildableName = "libECCore.a"
+               BlueprintName = "ECCoreMacStatic"
+               ReferencedContainer = "container:ECCore/ECCore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2296287017621E33008D887F"
+               BuildableName = "libECCommandLine.a"
+               BlueprintName = "ECCommandLineMacStatic"
+               ReferencedContainer = "container:ECCommandLine/ECCommandLine.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2251BA1115DBCC4A00F2FE40"
+               BuildableName = "ECAnalytics.framework"
+               BlueprintName = "ECAnalyticsIOS"
+               ReferencedContainer = "container:ECAnalytics/ECAnalytics.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2251BA1115DBCC4A00F2FE40"
+               BuildableName = "ECNetwork.framework"
+               BlueprintName = "ECNetworkIOS"
+               ReferencedContainer = "container:ECNetwork/ECNetwork.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2260A2FC15DFD7320057C9DA"
+               BuildableName = "ECSecurity.framework"
+               BlueprintName = "ECSecurityIOS"
+               ReferencedContainer = "container:ECSecurity/ECSecurity.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2260A2E815DFD7290057C9DA"
+               BuildableName = "ECSecurity.framework"
+               BlueprintName = "ECSecurityMac"
+               ReferencedContainer = "container:ECSecurity/ECSecurity.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2251BA1115DBCC4A00F2FE40"
+               BuildableName = "ECText.framework"
+               BlueprintName = "ECTextIOS"
+               ReferencedContainer = "container:ECText/ECText.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2251B9FE15DBCC3E00F2FE40"
+               BuildableName = "ECText.framework"
+               BlueprintName = "ECTextMac"
+               ReferencedContainer = "container:ECText/ECText.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2251B9FE15DBCC3E00F2FE40"
+               BuildableName = "ECNetwork.framework"
+               BlueprintName = "ECNetworkMac"
+               ReferencedContainer = "container:ECNetwork/ECNetwork.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2260A2E815DFD7290057C9DA"
+               BuildableName = "ECPreferencesWindow.framework"
+               BlueprintName = "ECPreferencesWindowMac"
+               ReferencedContainer = "container:ECPreferencesWindow/ECPreferencesWindow.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2260A2E815DFD7290057C9DA"
+               BuildableName = "ECAppKit.framework"
+               BlueprintName = "ECAppKitMac"
+               ReferencedContainer = "container:ECAppKit/ECAppKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2251BA1115DBCC4A00F2FE40"
+               BuildableName = "ECTouch.framework"
+               BlueprintName = "ECTouchIOS"
+               ReferencedContainer = "container:ECTouch/ECTouch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2251BA1115DBCC4A00F2FE40"
+               BuildableName = "ECLocation.framework"
+               BlueprintName = "ECLocationIOS"
+               ReferencedContainer = "container:ECLocation/ECLocation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2251B9FE15DBCC3E00F2FE40"
+               BuildableName = "ECLocation.framework"
+               BlueprintName = "ECLocationMac"
+               ReferencedContainer = "container:ECLocation/ECLocation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22FF8E3616F1E418008FC10D"
+               BuildableName = "ECUnitTests.framework"
+               BlueprintName = "ECUnitTestsIOS"
+               ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22FF8E8516F1E5EB008FC10D"
+               BuildableName = "ECUnitTests.framework"
+               BlueprintName = "ECUnitTestsMac"
+               ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2274B38C14F56896003B8A0B"
+               BuildableName = "ECLoggingIOSTests.octest"
+               BlueprintName = "ECLoggingIOSTests"
+               ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
+               BuildableName = "ECLoggingMacTests.octest"
+               BlueprintName = "ECLoggingMacTests"
+               ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2274B38C14F56896003B8A0B"
+               BuildableName = "ECAnalyticsIOSTests.octest"
+               BlueprintName = "ECAnalyticsIOSTests"
+               ReferencedContainer = "container:ECAnalytics/ECAnalytics.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2283A3F414F52EC0009142F7"
+               BuildableName = "ECAppKitMacTests.octest"
+               BlueprintName = "ECAppKitMacTests"
+               ReferencedContainer = "container:ECAppKit/ECAppKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2283A3F414F52EC0009142F7"
+               BuildableName = "ECCommandLineMacTests.octest"
+               BlueprintName = "ECCommandLineMacTests"
+               ReferencedContainer = "container:ECCommandLine/ECCommandLine.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2296290517634FD9008D887F"
+               BuildableName = "ECCommandLineTest"
+               BlueprintName = "ECCommandLineTest"
+               ReferencedContainer = "container:ECCommandLineTest/ECCommandLineTest.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22C2DB7014FB9CC8005D2E89"
+               BuildableName = "ECCoreIOSTests.octest"
+               BlueprintName = "ECCoreIOSTests"
+               ReferencedContainer = "container:ECCore/ECCore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2283A3F414F52EC0009142F7"
+               BuildableName = "ECCoreMacTests.octest"
+               BlueprintName = "ECCoreMacTests"
+               ReferencedContainer = "container:ECCore/ECCore.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2274B38C14F56896003B8A0B"
+               BuildableName = "ECLocationIOSTests.octest"
+               BlueprintName = "ECLocationIOSTests"
+               ReferencedContainer = "container:ECLocation/ECLocation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
+               BuildableName = "ECLocationMacTests.octest"
+               BlueprintName = "ECLocationMacTests"
+               ReferencedContainer = "container:ECLocation/ECLocation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2218F86B16D947E6005AB648"
+               BuildableName = "ECLoggingSampleIOS.app"
+               BlueprintName = "ECLoggingSampleIOS"
+               ReferencedContainer = "container:ECLoggingExamples/ECLoggingSample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2218F85316D947BE005AB648"
+               BuildableName = "ECLoggingSampleIOSTests.octest"
+               BlueprintName = "ECLoggingSampleIOSTests"
+               ReferencedContainer = "container:ECLoggingExamples/ECLoggingSample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22E51FB71434E04F008F8D41"
+               BuildableName = "ECLoggingSampleMac.app"
+               BlueprintName = "ECLoggingSampleMac"
+               ReferencedContainer = "container:ECLoggingExamples/ECLoggingSample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2277CE6516D6BD3A00835964"
+               BuildableName = "ECLoggingSampleMacTests.octest"
+               BlueprintName = "ECLoggingSampleMacTests"
+               ReferencedContainer = "container:ECLoggingExamples/ECLoggingSample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2274B38C14F56896003B8A0B"
+               BuildableName = "ECNetworkIOSTests.octest"
+               BlueprintName = "ECNetworkIOSTests"
+               ReferencedContainer = "container:ECNetwork/ECNetwork.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
+               BuildableName = "ECNetworkMacTests.octest"
+               BlueprintName = "ECNetworkMacTests"
+               ReferencedContainer = "container:ECNetwork/ECNetwork.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2283A3F414F52EC0009142F7"
+               BuildableName = "ECPreferencesWindowTests.octest"
+               BlueprintName = "ECPreferencesWindowTests"
+               ReferencedContainer = "container:ECPreferencesWindow/ECPreferencesWindow.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22C2DB7014FB9CC8005D2E89"
+               BuildableName = "ECSecurityIOSTests.octest"
+               BlueprintName = "ECSecurityIOSTests"
+               ReferencedContainer = "container:ECSecurity/ECSecurity.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2283A3F414F52EC0009142F7"
+               BuildableName = "ECSecurityMacTests.octest"
+               BlueprintName = "ECSecurityMacTests"
+               ReferencedContainer = "container:ECSecurity/ECSecurity.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2274B38C14F56896003B8A0B"
+               BuildableName = "ECTextIOSTests.octest"
+               BlueprintName = "ECTextIOSTests"
+               ReferencedContainer = "container:ECText/ECText.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
+               BuildableName = "ECTextMacTests.octest"
+               BlueprintName = "ECTextMacTests"
+               ReferencedContainer = "container:ECText/ECText.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2274B38C14F56896003B8A0B"
+               BuildableName = "ECTouchIOSTests.octest"
+               BlueprintName = "ECTouchIOSTests"
+               ReferencedContainer = "container:ECTouch/ECTouch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2274B38C14F56896003B8A0B"
+               BuildableName = "ECAnalyticsIOSTests.octest"
+               BlueprintName = "ECAnalyticsIOSTests"
+               ReferencedContainer = "container:ECAnalytics/ECAnalytics.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2283A3F414F52EC0009142F7"
+               BuildableName = "ECAppKitMacTests.octest"
+               BlueprintName = "ECAppKitMacTests"
+               ReferencedContainer = "container:ECAppKit/ECAppKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2283A3F414F52EC0009142F7"
+               BuildableName = "ECCommandLineMacTests.octest"
+               BlueprintName = "ECCommandLineMacTests"
+               ReferencedContainer = "container:ECCommandLine/ECCommandLine.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22C2DB7014FB9CC8005D2E89"
+               BuildableName = "ECCoreIOSTests.octest"
+               BlueprintName = "ECCoreIOSTests"
+               ReferencedContainer = "container:ECCore/ECCore.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2283A3F414F52EC0009142F7"
+               BuildableName = "ECCoreMacTests.octest"
+               BlueprintName = "ECCoreMacTests"
+               ReferencedContainer = "container:ECCore/ECCore.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2274B38C14F56896003B8A0B"
+               BuildableName = "ECLocationIOSTests.octest"
+               BlueprintName = "ECLocationIOSTests"
+               ReferencedContainer = "container:ECLocation/ECLocation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
+               BuildableName = "ECLocationMacTests.octest"
+               BlueprintName = "ECLocationMacTests"
+               ReferencedContainer = "container:ECLocation/ECLocation.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2274B38C14F56896003B8A0B"
+               BuildableName = "ECLoggingIOSTests.octest"
+               BlueprintName = "ECLoggingIOSTests"
+               ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
+               BuildableName = "ECLoggingMacTests.octest"
+               BlueprintName = "ECLoggingMacTests"
+               ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2218F85316D947BE005AB648"
+               BuildableName = "ECLoggingSampleIOSTests.octest"
+               BlueprintName = "ECLoggingSampleIOSTests"
+               ReferencedContainer = "container:ECLoggingExamples/ECLoggingSample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2277CE6516D6BD3A00835964"
+               BuildableName = "ECLoggingSampleMacTests.octest"
+               BlueprintName = "ECLoggingSampleMacTests"
+               ReferencedContainer = "container:ECLoggingExamples/ECLoggingSample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2274B38C14F56896003B8A0B"
+               BuildableName = "ECNetworkIOSTests.octest"
+               BlueprintName = "ECNetworkIOSTests"
+               ReferencedContainer = "container:ECNetwork/ECNetwork.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
+               BuildableName = "ECNetworkMacTests.octest"
+               BlueprintName = "ECNetworkMacTests"
+               ReferencedContainer = "container:ECNetwork/ECNetwork.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2283A3F414F52EC0009142F7"
+               BuildableName = "ECPreferencesWindowTests.octest"
+               BlueprintName = "ECPreferencesWindowTests"
+               ReferencedContainer = "container:ECPreferencesWindow/ECPreferencesWindow.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22E60D8216C0041700C988C9"
+               BuildableName = "Tests.octest"
+               BlueprintName = "Tests"
+               ReferencedContainer = "container:ECPreferencesWindowExample/ECPreferencesWindowExample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "22C2DB7014FB9CC8005D2E89"
+               BuildableName = "ECSecurityIOSTests.octest"
+               BlueprintName = "ECSecurityIOSTests"
+               ReferencedContainer = "container:ECSecurity/ECSecurity.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2283A3F414F52EC0009142F7"
+               BuildableName = "ECSecurityMacTests.octest"
+               BlueprintName = "ECSecurityMacTests"
+               ReferencedContainer = "container:ECSecurity/ECSecurity.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2274B38C14F56896003B8A0B"
+               BuildableName = "ECTextIOSTests.octest"
+               BlueprintName = "ECTextIOSTests"
+               ReferencedContainer = "container:ECText/ECText.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
+               BuildableName = "ECTextMacTests.octest"
+               BlueprintName = "ECTextMacTests"
+               ReferencedContainer = "container:ECText/ECText.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2274B38C14F56896003B8A0B"
+               BuildableName = "ECTouchIOSTests.octest"
+               BlueprintName = "ECTouchIOSTests"
+               ReferencedContainer = "container:ECTouch/ECTouch.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
