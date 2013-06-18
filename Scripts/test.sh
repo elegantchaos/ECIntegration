@@ -7,6 +7,20 @@ project=ECIntegration
 base=`dirname $0`
 source "$base/../ECLogging/Extras/Scripts/test-common.sh"
 
+# test ECNetwork
+
+macbuild "ECNetwork Mac" test
+iosbuild "ECNetwork iOS" test
+
+# test ECLocation
+
+macbuild "ECLocation Mac" test
+iosbuild "ECLocation iOS" test
+
+# test ECSecurity
+
+macbuild "ECSecurity Mac" test
+iosbuild "ECSecurity iOS" test
 
 # test ECLogging
 
@@ -16,19 +30,8 @@ iosbuild "ECLogging iOS" test
 macbuild "ECLogging Sample Mac" test
 iosbuild "ECLogging Sample iOS" test
 
-# test ECLocation
 
-macbuild "ECLocation Mac" test
-iosbuild "ECLocation iOS" build
 
-# test ECNetwork
-
-macbuild "ECNetwork Mac" build
-iosbuild "ECNetwork iOS" build
-
-# test ECTouch
-
-iosbuild "ECTouch iOS" build
 
 # test ECAnalytics
 
