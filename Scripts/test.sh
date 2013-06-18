@@ -8,6 +8,12 @@ base=`dirname $0`
 source "$base/../ECLogging/Extras/Scripts/test-common.sh"
 
 
+iosbuild "ECLogging Sample iOS" test
+iosbuild "ECLocation iOS" build
+iosbuild "ECNetwork iOS" build
+iosbuild "ECTouch iOS" build
+iosbuild "ECAnalytics iOS" build
+
 # test ECLogging
 
 macbuild "ECLogging Mac" test
