@@ -1,26 +1,25 @@
+#!/usr/bin/env bash
+
 base=`dirname $0`
-pushd "$base" > /dev/null
-full="$PWD"
-popd > /dev/null
 
-STATUS=`git status -s`
+status=`git status -s`
+if [[ "$status" != "" ]]; then
+    echo "Git seems to have changes outstanding."
+    exit 1
+fi
 
-if [[ "$STATUS" == "" ]]; then
+git submodule sync > /dev/null
+git submodule update --init --recursive
+git submodule foreach 'git remote set-url --push origin git@github.com:elegantchaos/$name.git'
 
-    echo "Pulling latest submodules."
-    "$base/../ECLogging/Extras/Scripts/pull-latest-submodules.sh"
+echo "Pulling latest submodules"
+ECLogging/Extras/Scripts/pull-latest-develop-submodules.sh
 
-    STATUS=`git status -s`
+status=`git status -s`
+if [[ "$status" != "" ]]; then
 
-    if [[ "$STATUS" != "" ]]; then
-        echo "Submodules have changed - committing."
-        git commit . -m "Automatic update of submodules"
-        git push
-
-    fi
-
-else
-
-    echo "You have changes outstanding in git - commit them first."
+    echo "Submodules updated"
+    git commit . -m "updated to latest modules"
+    git push origin master
 
 fi
