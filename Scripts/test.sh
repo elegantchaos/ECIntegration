@@ -5,7 +5,8 @@
 project=ECIntegration
 
 base=`dirname $0`
-source "$base/../ECLogging/Extras/Scripts/test-common.sh"
+ecbase="$base/../ECLogging/Extras/Scripts"
+source "$ecbase/test-common.sh"
 
 
 # test ECAnalytics
