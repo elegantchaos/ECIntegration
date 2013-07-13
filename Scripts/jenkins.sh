@@ -13,9 +13,11 @@ ECLogging/Extras/Scripts/pull-latest-submodules.sh
 
 status=`git status -s`
 if [[ "$status" != "" ]]; then
-	
+
+	echo "Submodules updated"
 	git commit . -m "updated to latest modules"
 
+	echo "Running tests"
 	"$status/test.sh"
 	
 fi
