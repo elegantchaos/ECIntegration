@@ -20,7 +20,7 @@ macbuild "ECAppKit Mac" test
 # test ECCommandLine
 
 macbuild "ECCommandLine Mac" test
-macbuild "ECCommandLineTest" test
+macbuild "ECCommandLineTest" build
 
 # test ECCore
 
