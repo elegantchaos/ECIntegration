@@ -11,26 +11,26 @@ source "$ecbase/test-common.sh"
 
 # test ECAnalytics
 
-iosbuild "ECAnalytics iOS" test
+#iosbuild "ECAnalytics iOS" test
 
 # test ECAppKit
 
-macbuild "ECAppKit Mac" test
+#macbuild "ECAppKit Mac" test
 
 # test ECCommandLine
 
-macbuild "ECCommandLine Mac" test
-macbuild "ECCommandLineTest" test
+#macbuild "ECCommandLine Mac" test
+#macbuild "ECCommandLineTest" test
 
 # test ECCore
 
-macbuild "ECCore Mac" test
-iosbuild "ECCore iOS" test
+#macbuild "ECCore Mac" test
+#iosbuild "ECCore iOS" test
 
 # test ECLocation
 
-macbuild "ECLocation Mac" test
-iosbuild "ECLocation iOS" test
+#macbuild "ECLocation Mac" test
+#iosbuild "ECLocation iOS" test
 
 # test ECLogging
 
@@ -42,27 +42,27 @@ iosbuild "ECLogging Sample iOS" test
 
 # test ECNetwork
 
-macbuild "ECNetwork Mac" test
-iosbuild "ECNetwork iOS" test
+#macbuild "ECNetwork Mac" test
+#iosbuild "ECNetwork iOS" test
 
 # test ECPreferencesWindow
 
-macbuild "ECPreferencesWindow Mac" test
-macbuild "ECPreferencesWindowExample" test
+#macbuild "ECPreferencesWindow Mac" test
+#macbuild "ECPreferencesWindowExample" test
 
 # test ECSecurity
 
-macbuild "ECSecurity Mac" test
-iosbuild "ECSecurity iOS" test
+#macbuild "ECSecurity Mac" test
+#iosbuild "ECSecurity iOS" test
 
 # test ECText
 
-macbuild "ECText Mac" test
-iosbuild "ECText iOS" test
+#macbuild "ECText Mac" test
+#iosbuild "ECText iOS" test
 
 # test ECTouch
 
-iosbuild "ECTouch iOS" test
+#iosbuild "ECTouch iOS" test
 
 
 
@@ -70,4 +70,4 @@ iosbuild "ECTouch iOS" test
 
 
 # if everything worked, try to push the current submodule revisions to their master branches
-git submodule foreach 'git push origin HEAD:master'
+#git submodule foreach 'git push origin HEAD:master'
