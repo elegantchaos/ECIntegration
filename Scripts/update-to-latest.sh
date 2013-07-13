@@ -8,6 +8,8 @@ if [[ "$status" != "" ]]; then
     exit 1
 fi
 
+git checkout master
+git pull
 git submodule sync > /dev/null
 git submodule update --init --recursive
 git submodule foreach 'git remote set-url --push origin git@github.com:elegantchaos/$name.git'
