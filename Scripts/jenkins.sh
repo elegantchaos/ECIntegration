@@ -9,7 +9,7 @@ if [[ "$status" != "" ]]; then
 fi
 
 echo "Pulling latest submodules"
-ECLogging/Extras/Scripts/pull-latest-submodules.sh
+ECLogging/Extras/Scripts/merge-latest-submodules.sh
 
 status=`git status -s`
 if [[ "$status" != "" ]]; then
