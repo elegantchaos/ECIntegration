@@ -11,7 +11,7 @@ source "$ecbase/test-common.sh"
 
 # test ECCommandLine
 
-macbuild "ECCommandLine Mac" test
+macbuild "ECCommandLine Mac" build
 macbuild "ECCommandLineTest" build
 
 
