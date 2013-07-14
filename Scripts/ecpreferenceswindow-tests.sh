@@ -11,8 +11,8 @@ source "$ecbase/test-common.sh"
 
 # test ECPreferencesWindow
 
-macbuild "ECPreferencesWindow Mac" test
-macbuild "ECPreferencesWindowExample" test
+macbuild "ECPreferencesWindow Mac" build
+macbuild "ECPreferencesWindowExample" build
 
 
 # if everything worked, try to push the current submodule revisions to their master branches
