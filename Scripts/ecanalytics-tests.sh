@@ -11,7 +11,7 @@ source "$ecbase/test-common.sh"
 
 # test ECAnalytics
 
-iosbuild "ECAnalytics iOS" test
+iosbuild "ECAnalytics iOS" build
 
 
 # if everything worked, try to push the current submodule revisions to their master branches
