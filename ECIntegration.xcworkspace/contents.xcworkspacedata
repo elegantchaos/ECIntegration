@@ -4,18 +4,38 @@
    <FileRef
       location = "group:Scripts">
    </FileRef>
-   <Group
-      location = "container:"
-      name = "ECLogging">
-      <FileRef
-         location = "group:ECLogging/ECLogging.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:ECLoggingExamples/ECLoggingSample.xcodeproj">
-      </FileRef>
-   </Group>
+   <FileRef
+      location = "group:ECAnalytics/ECAnalytics.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ECAppKit/ECAppKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ECCommandLine/ECCommandLine.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ECCommandLineTest/ECCommandLineTest.xcodeproj">
+   </FileRef>
    <FileRef
       location = "group:ECCore/ECCore.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ECLocation/ECLocation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ECLogging/ECLogging.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ECLoggingExamples/ECLoggingSample.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ECNetwork/ECNetwork.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ECPreferencesWindow/ECPreferencesWindow.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ECPreferencesWindowExample/ECPreferencesWindowExample.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:ECSecurity/ECSecurity.xcodeproj">
@@ -24,40 +44,8 @@
       location = "group:ECText/ECText.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ECNetwork/ECNetwork.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:ECTouch/ECTouch.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:ECLocation/ECLocation.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:ECAnalytics/ECAnalytics.xcodeproj">
-   </FileRef>
-   <Group
-      location = "container:"
-      name = "ECPreferencesWindow">
-      <FileRef
-         location = "group:ECPreferencesWindow/ECPreferencesWindow.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:ECPreferencesWindowExample/ECPreferencesWindowExample.xcodeproj">
-      </FileRef>
-   </Group>
-   <FileRef
-      location = "group:ECAppKit/ECAppKit.xcodeproj">
-   </FileRef>
-   <Group
-      location = "container:"
-      name = "ECCommandLine">
-      <FileRef
-         location = "group:ECCommandLine/ECCommandLine.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:ECCommandLineTest/ECCommandLineTest.xcodeproj">
-      </FileRef>
-   </Group>
    <FileRef
       location = "group:ECEmptyLibraryTemplate/{{name}}.xcodeproj">
    </FileRef>

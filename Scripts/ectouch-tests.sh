@@ -11,7 +11,7 @@ source "$ecbase/test-common.sh"
 
 # test ECTouch
 
-iosbuild "ECTouch iOS" test
+iosbuild "ECTouch iOS" build
 
 
 

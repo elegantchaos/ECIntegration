@@ -11,8 +11,8 @@ source "$ecbase/test-common.sh"
 
 # test ECText
 
-macbuild "ECText Mac" test
-iosbuild "ECText iOS" test
+macbuild "ECText Mac" build
+iosbuild "ECText iOS" build
 
 
 # if everything worked, try to push the current submodule revisions to their master branches

@@ -10,8 +10,8 @@ source "$ecbase/test-common.sh"
 
 # test ECSecurity
 
-macbuild "ECSecurity Mac" test
-iosbuild "ECSecurity iOS" test
+macbuild "ECSecurity Mac" build
+iosbuild "ECSecurity iOS" build
 
 
 
