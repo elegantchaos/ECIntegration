@@ -10,8 +10,8 @@ source "$ecbase/test-common.sh"
 
 # test ECLocation
 
-macbuild "ECLocation Mac" test
-iosbuild "ECLocation iOS" test
+macbuild "ECLocation Mac" build
+iosbuild "ECLocation iOS" build
 
 
 # if everything worked, try to push the current submodule revisions to their master branches
