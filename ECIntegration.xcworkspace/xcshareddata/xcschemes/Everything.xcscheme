@@ -323,7 +323,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECLoggingIOSTests.octest"
+               BuildableName = "ECLoggingIOSTests.xctest"
                BlueprintName = "ECLoggingIOSTests"
                ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
             </BuildableReference>
@@ -337,7 +337,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
-               BuildableName = "ECLoggingMacTests.octest"
+               BuildableName = "ECLoggingMacTests.xctest"
                BlueprintName = "ECLoggingMacTests"
                ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
             </BuildableReference>
@@ -351,7 +351,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECAnalyticsIOSTests.octest"
+               BuildableName = "ECAnalyticsIOSTests.xctest"
                BlueprintName = "ECAnalyticsIOSTests"
                ReferencedContainer = "container:ECAnalytics/ECAnalytics.xcodeproj">
             </BuildableReference>
@@ -365,7 +365,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2283A3F414F52EC0009142F7"
-               BuildableName = "ECAppKitMacTests.octest"
+               BuildableName = "ECAppKitMacTests.xctest"
                BlueprintName = "ECAppKitMacTests"
                ReferencedContainer = "container:ECAppKit/ECAppKit.xcodeproj">
             </BuildableReference>
@@ -379,7 +379,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2283A3F414F52EC0009142F7"
-               BuildableName = "ECCommandLineMacTests.octest"
+               BuildableName = "ECCommandLineMacTests.xctest"
                BlueprintName = "ECCommandLineMacTests"
                ReferencedContainer = "container:ECCommandLine/ECCommandLine.xcodeproj">
             </BuildableReference>
@@ -407,7 +407,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "22C2DB7014FB9CC8005D2E89"
-               BuildableName = "ECCoreIOSTests.octest"
+               BuildableName = "ECCoreIOSTests.xctest"
                BlueprintName = "ECCoreIOSTests"
                ReferencedContainer = "container:ECCore/ECCore.xcodeproj">
             </BuildableReference>
@@ -421,7 +421,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2283A3F414F52EC0009142F7"
-               BuildableName = "ECCoreMacTests.octest"
+               BuildableName = "ECCoreMacTests.xctest"
                BlueprintName = "ECCoreMacTests"
                ReferencedContainer = "container:ECCore/ECCore.xcodeproj">
             </BuildableReference>
@@ -435,7 +435,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECLocationIOSTests.octest"
+               BuildableName = "ECLocationIOSTests.xctest"
                BlueprintName = "ECLocationIOSTests"
                ReferencedContainer = "container:ECLocation/ECLocation.xcodeproj">
             </BuildableReference>
@@ -449,7 +449,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
-               BuildableName = "ECLocationMacTests.octest"
+               BuildableName = "ECLocationMacTests.xctest"
                BlueprintName = "ECLocationMacTests"
                ReferencedContainer = "container:ECLocation/ECLocation.xcodeproj">
             </BuildableReference>
@@ -477,7 +477,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2218F85316D947BE005AB648"
-               BuildableName = "ECLoggingSampleIOSTests.octest"
+               BuildableName = "ECLoggingSampleIOSTests.xctest"
                BlueprintName = "ECLoggingSampleIOSTests"
                ReferencedContainer = "container:ECLoggingExamples/ECLoggingSample.xcodeproj">
             </BuildableReference>
@@ -505,7 +505,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2277CE6516D6BD3A00835964"
-               BuildableName = "ECLoggingSampleMacTests.octest"
+               BuildableName = "ECLoggingSampleMacTests.xctest"
                BlueprintName = "ECLoggingSampleMacTests"
                ReferencedContainer = "container:ECLoggingExamples/ECLoggingSample.xcodeproj">
             </BuildableReference>
@@ -519,7 +519,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECNetworkIOSTests.octest"
+               BuildableName = "ECNetworkIOSTests.xctest"
                BlueprintName = "ECNetworkIOSTests"
                ReferencedContainer = "container:ECNetwork/ECNetwork.xcodeproj">
             </BuildableReference>
@@ -533,7 +533,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
-               BuildableName = "ECNetworkMacTests.octest"
+               BuildableName = "ECNetworkMacTests.xctest"
                BlueprintName = "ECNetworkMacTests"
                ReferencedContainer = "container:ECNetwork/ECNetwork.xcodeproj">
             </BuildableReference>
@@ -547,7 +547,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2283A3F414F52EC0009142F7"
-               BuildableName = "ECPreferencesWindowTests.octest"
+               BuildableName = "ECPreferencesWindowTests.xctest"
                BlueprintName = "ECPreferencesWindowTests"
                ReferencedContainer = "container:ECPreferencesWindow/ECPreferencesWindow.xcodeproj">
             </BuildableReference>
@@ -561,7 +561,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "22C2DB7014FB9CC8005D2E89"
-               BuildableName = "ECSecurityIOSTests.octest"
+               BuildableName = "ECSecurityIOSTests.xctest"
                BlueprintName = "ECSecurityIOSTests"
                ReferencedContainer = "container:ECSecurity/ECSecurity.xcodeproj">
             </BuildableReference>
@@ -575,7 +575,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2283A3F414F52EC0009142F7"
-               BuildableName = "ECSecurityMacTests.octest"
+               BuildableName = "ECSecurityMacTests.xctest"
                BlueprintName = "ECSecurityMacTests"
                ReferencedContainer = "container:ECSecurity/ECSecurity.xcodeproj">
             </BuildableReference>
@@ -589,7 +589,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECTextIOSTests.octest"
+               BuildableName = "ECTextIOSTests.xctest"
                BlueprintName = "ECTextIOSTests"
                ReferencedContainer = "container:ECText/ECText.xcodeproj">
             </BuildableReference>
@@ -603,7 +603,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
-               BuildableName = "ECTextMacTests.octest"
+               BuildableName = "ECTextMacTests.xctest"
                BlueprintName = "ECTextMacTests"
                ReferencedContainer = "container:ECText/ECText.xcodeproj">
             </BuildableReference>
@@ -617,7 +617,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECTouchIOSTests.octest"
+               BuildableName = "ECTouchIOSTests.xctest"
                BlueprintName = "ECTouchIOSTests"
                ReferencedContainer = "container:ECTouch/ECTouch.xcodeproj">
             </BuildableReference>
@@ -635,7 +635,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECAnalyticsIOSTests.octest"
+               BuildableName = "ECAnalyticsIOSTests.xctest"
                BlueprintName = "ECAnalyticsIOSTests"
                ReferencedContainer = "container:ECAnalytics/ECAnalytics.xcodeproj">
             </BuildableReference>
@@ -645,7 +645,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2283A3F414F52EC0009142F7"
-               BuildableName = "ECAppKitMacTests.octest"
+               BuildableName = "ECAppKitMacTests.xctest"
                BlueprintName = "ECAppKitMacTests"
                ReferencedContainer = "container:ECAppKit/ECAppKit.xcodeproj">
             </BuildableReference>
@@ -655,7 +655,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2283A3F414F52EC0009142F7"
-               BuildableName = "ECCommandLineMacTests.octest"
+               BuildableName = "ECCommandLineMacTests.xctest"
                BlueprintName = "ECCommandLineMacTests"
                ReferencedContainer = "container:ECCommandLine/ECCommandLine.xcodeproj">
             </BuildableReference>
@@ -665,7 +665,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "22C2DB7014FB9CC8005D2E89"
-               BuildableName = "ECCoreIOSTests.octest"
+               BuildableName = "ECCoreIOSTests.xctest"
                BlueprintName = "ECCoreIOSTests"
                ReferencedContainer = "container:ECCore/ECCore.xcodeproj">
             </BuildableReference>
@@ -675,7 +675,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2283A3F414F52EC0009142F7"
-               BuildableName = "ECCoreMacTests.octest"
+               BuildableName = "ECCoreMacTests.xctest"
                BlueprintName = "ECCoreMacTests"
                ReferencedContainer = "container:ECCore/ECCore.xcodeproj">
             </BuildableReference>
@@ -685,7 +685,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECLocationIOSTests.octest"
+               BuildableName = "ECLocationIOSTests.xctest"
                BlueprintName = "ECLocationIOSTests"
                ReferencedContainer = "container:ECLocation/ECLocation.xcodeproj">
             </BuildableReference>
@@ -695,7 +695,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
-               BuildableName = "ECLocationMacTests.octest"
+               BuildableName = "ECLocationMacTests.xctest"
                BlueprintName = "ECLocationMacTests"
                ReferencedContainer = "container:ECLocation/ECLocation.xcodeproj">
             </BuildableReference>
@@ -705,7 +705,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECLoggingIOSTests.octest"
+               BuildableName = "ECLoggingIOSTests.xctest"
                BlueprintName = "ECLoggingIOSTests"
                ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
             </BuildableReference>
@@ -715,7 +715,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
-               BuildableName = "ECLoggingMacTests.octest"
+               BuildableName = "ECLoggingMacTests.xctest"
                BlueprintName = "ECLoggingMacTests"
                ReferencedContainer = "container:ECLogging/ECLogging.xcodeproj">
             </BuildableReference>
@@ -725,7 +725,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2218F85316D947BE005AB648"
-               BuildableName = "ECLoggingSampleIOSTests.octest"
+               BuildableName = "ECLoggingSampleIOSTests.xctest"
                BlueprintName = "ECLoggingSampleIOSTests"
                ReferencedContainer = "container:ECLoggingExamples/ECLoggingSample.xcodeproj">
             </BuildableReference>
@@ -735,7 +735,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2277CE6516D6BD3A00835964"
-               BuildableName = "ECLoggingSampleMacTests.octest"
+               BuildableName = "ECLoggingSampleMacTests.xctest"
                BlueprintName = "ECLoggingSampleMacTests"
                ReferencedContainer = "container:ECLoggingExamples/ECLoggingSample.xcodeproj">
             </BuildableReference>
@@ -745,7 +745,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECNetworkIOSTests.octest"
+               BuildableName = "ECNetworkIOSTests.xctest"
                BlueprintName = "ECNetworkIOSTests"
                ReferencedContainer = "container:ECNetwork/ECNetwork.xcodeproj">
             </BuildableReference>
@@ -755,7 +755,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
-               BuildableName = "ECNetworkMacTests.octest"
+               BuildableName = "ECNetworkMacTests.xctest"
                BlueprintName = "ECNetworkMacTests"
                ReferencedContainer = "container:ECNetwork/ECNetwork.xcodeproj">
             </BuildableReference>
@@ -765,7 +765,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2283A3F414F52EC0009142F7"
-               BuildableName = "ECPreferencesWindowTests.octest"
+               BuildableName = "ECPreferencesWindowTests.xctest"
                BlueprintName = "ECPreferencesWindowTests"
                ReferencedContainer = "container:ECPreferencesWindow/ECPreferencesWindow.xcodeproj">
             </BuildableReference>
@@ -785,7 +785,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "22C2DB7014FB9CC8005D2E89"
-               BuildableName = "ECSecurityIOSTests.octest"
+               BuildableName = "ECSecurityIOSTests.xctest"
                BlueprintName = "ECSecurityIOSTests"
                ReferencedContainer = "container:ECSecurity/ECSecurity.xcodeproj">
             </BuildableReference>
@@ -795,7 +795,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2283A3F414F52EC0009142F7"
-               BuildableName = "ECSecurityMacTests.octest"
+               BuildableName = "ECSecurityMacTests.xctest"
                BlueprintName = "ECSecurityMacTests"
                ReferencedContainer = "container:ECSecurity/ECSecurity.xcodeproj">
             </BuildableReference>
@@ -805,7 +805,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECTextIOSTests.octest"
+               BuildableName = "ECTextIOSTests.xctest"
                BlueprintName = "ECTextIOSTests"
                ReferencedContainer = "container:ECText/ECText.xcodeproj">
             </BuildableReference>
@@ -815,7 +815,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "225EC67111EBAA4800A97AEA"
-               BuildableName = "ECTextMacTests.octest"
+               BuildableName = "ECTextMacTests.xctest"
                BlueprintName = "ECTextMacTests"
                ReferencedContainer = "container:ECText/ECText.xcodeproj">
             </BuildableReference>
@@ -825,7 +825,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2274B38C14F56896003B8A0B"
-               BuildableName = "ECTouchIOSTests.octest"
+               BuildableName = "ECTouchIOSTests.xctest"
                BlueprintName = "ECTouchIOSTests"
                ReferencedContainer = "container:ECTouch/ECTouch.xcodeproj">
             </BuildableReference>
